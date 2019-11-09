@@ -27,8 +27,8 @@ soup = BeautifulSoup(response.text,'html.parser')
 text = ""
 
 for s in soup.select(".as-price-currentprice"):
-    if s.text.split()[-1:][0] == "4,603":
-        text = "ddd"
+    if s.text.split()[-1:][0] == "3,603":
+        text = "64G iPad Pro 有货了！快去看看！"
 
 
 active_number = '+12013081942'
